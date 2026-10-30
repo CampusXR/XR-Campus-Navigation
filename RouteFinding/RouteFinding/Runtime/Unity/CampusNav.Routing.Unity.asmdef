@@ -1,0 +1,14 @@
+{
+    "name": "CampusNav.Routing.Unity",
+    "rootNamespace": "CampusNav.Routing.Unity",
+    "references": [ "CampusNav.Routing" ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
