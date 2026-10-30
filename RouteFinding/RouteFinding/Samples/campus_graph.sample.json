@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "campus": "Sample Campus (replace with real data)",
+  "origin": {
+    "latitude": 0,
+    "longitude": 0,
+    "headingDeg": 0
+  },
+  "floors": [
+    {
+      "level": 0,
+      "elevation": 0,
+      "name": "Ground Floor"
+    },
+    {
+      "level": 1,
+      "elevation": 4.6,
+      "name": "First Floor"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "GATE",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "floor": 0,
+      "name": "Main Gate",
+      "tags": [
+        "entrance",
+        "security"
+      ],
+      "destination": true
+    },
+    {
+      "id": "J1",
+      "x": 0,
+      "y": 0,
+      "z": 40,
+      "floor": 0
+    },
+    {
+      "id": "J2",
+      "x": 40,
+      "y": 0,
+      "z": 40,
+      "floor": 0
+    },
+    {
+      "id": "J3",
+      "x": 0,
+      "y": 0,
+      "z": 90,
+      "floor": 0
+    },
+    {
+      "id": "HOSTEL",
+      "x": 0,
+      "y": 0,
+      "z": 130,
+      "floor": 0,
+      "name": "Hostel Block",
+      "building": "Hostel",
+      "tags": [
+        "residence"
+      ],
+      "destination": true
+    },
+    {
+      "id": "LIB_ENT",
+      "x": -20,
+      "y": 0,
+      "z": 40,
+      "floor": 0,
+      "name": "Library Entrance",
+      "building": "Central Library",
+      "destination": true
+    },
+    {
+      "id": "LIB_DESK",
+      "x": -35,
+      "y": 0,
+      "z": 40,
+      "floor": 0,
+      "name": "Library Help Desk",
+      "building": "Central Library",
+      "tags": [
+        "library",
+        "books"
+      ],
+      "destination": true
+    },
+    {
+      "id": "LIB_WC",
+      "x": -35,
+      "y": 0,
+      "z": 52,
+      "floor": 0,
+      "name": "Library Washroom",
+      "building": "Central Library",
+      "tags": [
+        "washroom",
+        "toilet",
+        "restroom"
+      ],
+      "destination": true
+    },
+    {
+      "id": "CAF",
+      "x": 60,
+      "y": 0,
+      "z": 40,
+      "floor": 0,
+      "name": "Cafeteria",
+      "building": "Cafeteria",
+      "tags": [
+        "food",
+        "canteen"
+      ],
+      "destination": true
+    },
+    {
+      "id": "RAMP_BEND",
+      "x": 25,
+      "y": 0,
+      "z": 55,
+      "floor": 0
+    },
+    {
+      "id": "ENG_ENT",
+      "x": 40,
+      "y": 0.6,
+      "z": 60,
+      "floor": 0,
+      "name": "Engineering Block Entrance",
+      "building": "Engineering Block",
+      "destination": true
+    },
+    {
+      "id": "ENG_LOBBY",
+      "x": 40,
+      "y": 0.6,
+      "z": 72,
+      "floor": 0,
+      "name": "Engineering Lobby",
+      "building": "Engineering Block"
+    },
+    {
+      "id": "ENG_C2",
+      "x": 58,
+      "y": 0.6,
+      "z": 72,
+      "floor": 0,
+      "building": "Engineering Block"
+    },
+    {
+      "id": "SEMINAR_101",
+      "x": 70,
+      "y": 0.6,
+      "z": 72,
+      "floor": 0,
+      "name": "Seminar Hall 101",
+      "building": "Engineering Block",
+      "tags": [
+        "room 101",
+        "lecture"
+      ],
+      "destination": true
+    },
+    {
+      "id": "ENG_LIFT_0",
+      "x": 36,
+      "y": 0.6,
+      "z": 80,
+      "floor": 0,
+      "name": "Engineering Lift (Ground)",
+      "building": "Engineering Block"
+    },
+    {
+      "id": "ENG_STAIR_0",
+      "x": 58,
+      "y": 0.6,
+      "z": 80,
+      "floor": 0,
+      "name": "Main Staircase",
+      "building": "Engineering Block"
+    },
+    {
+      "id": "ENG_STAIR_1",
+      "x": 58,
+      "y": 4.6,
+      "z": 88,
+      "floor": 1,
+      "name": "Main Staircase (First Floor)",
+      "building": "Engineering Block"
+    },
+    {
+      "id": "ENG_LIFT_1",
+      "x": 36,
+      "y": 4.6,
+      "z": 80,
+      "floor": 1,
+      "name": "Engineering Lift (First Floor)",
+      "building": "Engineering Block"
+    },
+    {
+      "id": "ENG_F1_HALL",
+      "x": 48,
+      "y": 4.6,
+      "z": 88,
+      "floor": 1,
+      "building": "Engineering Block"
+    },
+    {
+      "id": "ROBOTICS_201",
+      "x": 70,
+      "y": 4.6,
+      "z": 88,
+      "floor": 1,
+      "name": "Robotics Lab 201",
+      "building": "Engineering Block",
+      "tags": [
+        "room 201",
+        "lab"
+      ],
+      "destination": true
+    },
+    {
+      "id": "ENG_F1_WC",
+      "x": 36,
+      "y": 4.6,
+      "z": 92,
+      "floor": 1,
+      "name": "First Floor Washroom",
+      "building": "Engineering Block",
+      "tags": [
+        "washroom",
+        "toilet",
+        "restroom"
+      ],
+      "destination": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "GATE",
+      "to": "J1",
+      "type": "walk",
+      "outdoor": true
+    },
+    {
+      "from": "J1",
+      "to": "J2",
+      "type": "walk",
+      "outdoor": true
+    },
+    {
+      "from": "J1",
+      "to": "J3",
+      "type": "walk",
+      "outdoor": true
+    },
+    {
+      "from": "J3",
+      "to": "HOSTEL",
+      "type": "walk",
+      "outdoor": true
+    },
+    {
+      "from": "J1",
+      "to": "LIB_ENT",
+      "type": "walk",
+      "outdoor": true
+    },
+    {
+      "from": "LIB_ENT",
+      "to": "LIB_DESK",
+      "type": "door"
+    },
+    {
+      "from": "LIB_DESK",
+      "to": "LIB_WC",
+      "type": "walk"
+    },
+    {
+      "from": "J2",
+      "to": "CAF",
+      "type": "door",
+      "outdoor": true
+    },
+    {
+      "from": "J2",
+      "to": "ENG_ENT",
+      "type": "stairs",
+      "outdoor": true
+    },
+    {
+      "from": "J2",
+      "to": "RAMP_BEND",
+      "type": "ramp",
+      "outdoor": true
+    },
+    {
+      "from": "RAMP_BEND",
+      "to": "ENG_ENT",
+      "type": "ramp",
+      "outdoor": true
+    },
+    {
+      "from": "ENG_ENT",
+      "to": "ENG_LOBBY",
+      "type": "door"
+    },
+    {
+      "from": "ENG_LOBBY",
+      "to": "ENG_C2",
+      "type": "walk"
+    },
+    {
+      "from": "ENG_C2",
+      "to": "SEMINAR_101",
+      "type": "walk"
+    },
+    {
+      "from": "ENG_LOBBY",
+      "to": "ENG_LIFT_0",
+      "type": "walk"
+    },
+    {
+      "from": "ENG_C2",
+      "to": "ENG_STAIR_0",
+      "type": "walk"
+    },
+    {
+      "from": "ENG_STAIR_0",
+      "to": "ENG_STAIR_1",
+      "type": "stairs"
+    },
+    {
+      "from": "ENG_LIFT_0",
+      "to": "ENG_LIFT_1",
+      "type": "elevator"
+    },
+    {
+      "from": "ENG_LIFT_1",
+      "to": "ENG_F1_HALL",
+      "type": "walk"
+    },
+    {
+      "from": "ENG_STAIR_1",
+      "to": "ENG_F1_HALL",
+      "type": "walk"
+    },
+    {
+      "from": "ENG_F1_HALL",
+      "to": "ROBOTICS_201",
+      "type": "walk"
+    },
+    {
+      "from": "ENG_LIFT_1",
+      "to": "ENG_F1_WC",
+      "type": "walk"
+    }
+  ]
+}
